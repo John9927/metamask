@@ -5,7 +5,7 @@
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
-  background: #83858C;
+  background: #335C81;
   height: 100px;
   width: 100%;
 }
@@ -17,7 +17,7 @@
 .icon-logo{
   display: flex;
   margin-left: 20px;
-  background: #83858C;
+  background: #335C81;
 }
 
 .icon{
@@ -40,7 +40,7 @@ a {
 .logo{
   display: flex;
   align-items: center;
-  background: #83858C;
+  background: #335C81;
 }
 
 .nav__container {
@@ -56,25 +56,22 @@ a {
 }
 
 .label {
-  color: black;
-}
-
-.label:hover {
   color: white;
 }
 
 .item {
   display: flex;
   padding: 10px;
+
 }
 
 .items {
   border-radius: 4px;
-  background: #B5B6BA;
+  background: #1B2845;
 }
 
 .items:hover {
-  background: #88898a;
+  background: #0b111d;
 }
 
 ul{
@@ -89,10 +86,9 @@ p{
   border-radius: 21px;
   position: relative;
   border-radius: 10px;
-  border: 2px solid rgba(34, 82, 2, 0.637);
-  background: rgb(115,255,34);
-  background: linear-gradient(90deg, rgba(115,255,34,1) 0%, rgba(0,193,132,1) 100%);
-  box-shadow: 2px 3px 10px rgba(60, 255, 0, 0.596);
+  border: 2px solid black;
+  background: rgb(9,81,179);
+  background: linear-gradient(196deg, rgb(94, 147, 221) 0%, rgb(71, 92, 163) 87%);
 }
 
 

@@ -7,11 +7,13 @@
     <div class="container">
       <div class="col-sx">
         <div style="display: flex; flex-direction: column; width: 90%; margin: 0 auto;">
-          <h1>BenzaCoin</h1>
-          <p>A new Cardano Token that will be the "fuel" for a new ecosystem</p>
-          <a href="#">
-            <p class="button" (click)="onClickBuy()">Buy</p>
-          </a>
+          <h1 class="title">BenzaCoin</h1>
+          <div class="container__items">
+            <p class="description">A new Cardano Token that will be the "fuel" for a new ecosystem</p>
+            <a href="#">
+              <p class="button" (click)="onClickBuy()">Buy</p>
+            </a>
+          </div>
         </div>
       </div>
       <div class="col-dx">
@@ -21,6 +23,8 @@
   </div>
 </div>
 
+
+<!-- Modal -->
 <div *ngIf="showModal" class="container__modal">
   <div class="modal">
     <h3>Non hai installato Metamask. Clicca qui per installarlo</h3>

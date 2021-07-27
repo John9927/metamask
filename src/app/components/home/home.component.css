@@ -17,6 +17,8 @@ body{
   width: 150px;
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+  color: white;
 }
 
 ul{
@@ -32,18 +34,40 @@ p{
   position: relative;
   border-radius: 10px;
   border: 2px solid rgba(34, 82, 2, 0.637);
-  background: rgb(115,255,34);
-  background: linear-gradient(90deg, rgba(115,255,34,1) 0%, rgba(0,193,132,1) 100%);
-  box-shadow: 2px 3px 10px rgba(60, 255, 0, 0.596);
+  background: rgb(9,81,179);
+  background: linear-gradient(196deg, rgb(94, 147, 221) 0%, rgb(71, 92, 163) 87%);
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+.container__items {
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  justify-content: space-between;
+}
+
+.description {
+  display: flex;
+  padding: 15px 0px;
+  color: white;
 }
 
 .container {
   display: flex;
+  margin-left: 22px;
 }
 
 .col-sx{
   display: flex;
-  background: rgba(43, 255, 106, 0.5);
+  background: rgba(133, 166, 238, 0.5);
   box-shadow: 0 8px 24px 0 rgba(255, 255, 255, 0.37);
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );

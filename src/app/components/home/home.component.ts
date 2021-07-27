@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import detectEthereumProvider from '@metamask/detect-provider';
 
 @Component({
@@ -11,7 +10,7 @@ export class HomeComponent implements OnInit {
   showModal: boolean = false;
   provider = detectEthereumProvider();
 
-  constructor(private router: Router) { }
+  constructor() { }
   url = 'https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=it';
 
   ngOnInit(): void {
@@ -30,6 +29,6 @@ export class HomeComponent implements OnInit {
   }
 
   onClickBuy() {
-    console.log("ciao");
+    console.log("Hai premuto il tasto 'Buy'");
   }
 }
