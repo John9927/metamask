@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import detectEthereumProvider from '@metamask/detect-provider';
 
-// const provider = detectEthereumProvider()
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,9 +9,11 @@ import detectEthereumProvider from '@metamask/detect-provider';
 })
 export class HomeComponent implements OnInit {
   showModal: boolean = false;
+  provider = detectEthereumProvider();
 
   constructor(private router: Router) { }
   url = 'https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=it';
+
   ngOnInit(): void {
     if (typeof window.ethereum !== 'undefined') {
       console.log('MetaMask is installed!');
@@ -32,5 +32,4 @@ export class HomeComponent implements OnInit {
   onClickBuy() {
     console.log("ciao");
   }
-
 }
