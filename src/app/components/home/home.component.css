@@ -13,49 +13,6 @@ body{
   font-family: 'Noto Sans', sans-serif;
 }
 
-.navbar{
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.icon-logo{
-  display: flex;
-}
-
-.icon{
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 0.2em;
-  padding-right: 0.2em;
-}
-
-a {
-  text-decoration: none;
-}
-
-.nav-icon{
-  border-radius: 50%;
-  height: 2em;
-  width: 2em;
-}
-
-.logo{
-  display: flex;
-  align-items: center;
-}
-
-.nav__container {
-  display: flex;
-  margin: auto 0;
-}
-
-.nav-menu{
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-}
-
 .button {
   width: 150px;
   display: flex;
@@ -96,8 +53,6 @@ img{
   height: 4em;
   width: 4em;
 }
-
-
 
 
 /* Modal */

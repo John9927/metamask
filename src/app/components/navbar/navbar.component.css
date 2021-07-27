@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+.navbar{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: #83858C;
+  height: 100px;
+  width: 100%;
+}
+
+.button__benzacoin {
+  cursor: pointer;
+}
+
+.icon-logo{
+  display: flex;
+  margin-left: 20px;
+  background: #83858C;
+}
+
+.icon{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-icon{
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  background: #83858C;
+}
+
+.nav__container {
+  display: flex;
+  margin: auto 30px;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.label {
+  color: black;
+}
+
+.label:hover {
+  color: white;
+}
+
+.item {
+  display: flex;
+  padding: 10px;
+}
+
+.items {
+  border-radius: 4px;
+  background: #B5B6BA;
+}
+
+.items:hover {
+  background: #88898a;
+}
+
+ul{
+  list-style: none;
+}
+
+p{
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  color: #1C2122;
+  border-radius: 21px;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid rgba(34, 82, 2, 0.637);
+  background: rgb(115,255,34);
+  background: linear-gradient(90deg, rgba(115,255,34,1) 0%, rgba(0,193,132,1) 100%);
+  box-shadow: 2px 3px 10px rgba(60, 255, 0, 0.596);
+}
+
+
+
