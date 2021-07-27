@@ -1,0 +1,57 @@
+<div class="container__main">
+
+
+<div class="navbar">
+  <div class="icon-logo">
+    <div class="icon">
+      <a href="#">
+        <img class="nav-icon" src="./../../../assets/il_570xN.1602252282_pz3b.jpg">
+      </a>
+    </div>
+    <div class="logo">
+      <p>BenzaCoin</p>
+    </div>
+  </div>
+
+  <nav class="nav__container">
+    <ul class="nav-menu">
+      <li class="item">
+        <a href="#">Home</a>
+      </li>
+      <li class="item">
+        <a href="/buy">Buy</a>
+      </li>
+      <li class="item">
+        <a href="#">Info</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="hero">
+  <div class="container">
+    <div class="col-sx">
+      <div style="display: flex; flex-direction: column; width: 90%; margin: 0 auto;">
+        <h1>BenzaCoin</h1>
+        <p>A new Cardano Token that will be the "fuel" for a new ecosystem</p>
+        <a href="#">
+          <p class="button" (click)="onClickBuy()">Buy</p>
+        </a>
+      </div>
+    </div>
+    <div class="col-dx">
+      <img class="nav-icon" src="./../../../assets/il_570xN.1602252282_pz3b.jpg">
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div *ngIf="showModal" class="container__modal">
+  <div class="modal">
+    <h3>Non hai installato Metamask. Clicca qui per installarlo</h3>
+    <button (click)="onClickButtonModal()" class="button__modal">
+      <span class="label__span">Installa</span>
+    </button>
+  </div>
+</div>

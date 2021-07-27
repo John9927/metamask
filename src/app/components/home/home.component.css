@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.container__main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+body{
+  border: none;
+  padding: none;
+  background-color: #1C2122;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-logo{
+  display: flex;
+}
+
+.icon{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-icon{
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.nav__container {
+  display: flex;
+  margin: auto 0;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.button {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  list-style: none;
+}
+
+p{
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  color: #1C2122;
+  border-radius: 21px;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid rgba(34, 82, 2, 0.637);
+  background: rgb(115,255,34);
+  background: linear-gradient(90deg, rgba(115,255,34,1) 0%, rgba(0,193,132,1) 100%);
+  box-shadow: 2px 3px 10px rgba(60, 255, 0, 0.596);
+}
+
+.container {
+  display: flex;
+}
+
+.col-sx{
+  display: flex;
+  background: rgba(43, 255, 106, 0.5);
+  box-shadow: 0 8px 24px 0 rgba(255, 255, 255, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+img{
+  height: 4em;
+  width: 4em;
+}
+
+
+
+
+/* Modal */
+
+.container__modal {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  top: 41vh;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: rgb(184, 197, 197);
+}
+
+.button__modal {
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.label__span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button__modal:focus {
+  outline: none;
+}
+
+.button__modal:hover {
+  background-color: beige;
+}
+
+h3 {
+  padding: 18px;
+}
